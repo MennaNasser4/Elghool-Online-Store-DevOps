@@ -9,7 +9,7 @@ This repository contains the **DevOps and Cloud Infrastructure** work for the pr
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```text
                     ┌──────────────────┐
@@ -42,7 +42,7 @@ This repository contains the **DevOps and Cloud Infrastructure** work for the pr
 
 ---
 
-## ☁️ Cloud & DevOps Services
+## Cloud & DevOps Services
 
 | Service              | Purpose                  |
 | -------------------- | ------------------------ |
@@ -55,11 +55,11 @@ This repository contains the **DevOps and Cloud Infrastructure** work for the pr
 | Azure Resource Group | Resource organization    |
 | GitHub               | Source control           |
 | GitHub Actions       | CI/CD automation         |
-| Postman              | API testing              |
+         |
 
 ---
 
-## 🚀 DevOps Responsibilities
+## DevOps Responsibilities
 
 The DevOps part of the project includes:
 
@@ -79,7 +79,7 @@ The DevOps part of the project includes:
 
 ---
 
-## 🔐 Security
+## Security
 
 Security considerations implemented during the project include:
 
@@ -95,7 +95,7 @@ Security considerations implemented during the project include:
 
 ---
 
-## 📊 Monitoring
+## Monitoring
 
 **Azure Application Insights** was configured for application monitoring and troubleshooting.
 
@@ -165,50 +165,13 @@ The SQL Server firewall configuration was reviewed and updated to allow the requ
 
 ---
 
-## 📅 Project Timeline
+## Project Timeline
 
 **Project Duration:** 4 Weeks
 
 **Start Date:** 20 June 2026
 
 **End Date:** 17 July 2026
-
-### Week 1 — 20 June → 26 June
-
-* Azure environment preparation
-* Resource Group setup
-* Initial cloud architecture
-* Initial application infrastructure
-* GitHub/project preparation
-
-### Week 2 — 27 June → 3 July
-
-* Backend hosting preparation
-* Azure SQL configuration
-* Blob Storage configuration
-* API deployment and testing
-* Initial troubleshooting
-
-### Week 3 — 4 July → 10 July
-
-* Application monitoring
-* Application Insights
-* Key Vault configuration
-* Access and security configuration
-* Infrastructure troubleshooting
-
-### Week 4 — 11 July → 17 July
-
-* Deployment troubleshooting
-* Final infrastructure configuration
-* Testing
-* Documentation
-* Review of remaining issues
-* Final project preparation
-
-> The weekly breakdown will be updated with detailed tasks and screenshots as the documentation is finalized.
-
----
 
 ## 📷 Screenshots
 
@@ -232,51 +195,6 @@ Screenshots include:
 
 ---
 
-## 📁 Repository Structure
-
-```text
-Elghool-Online-Store-DevOps/
-│
-├── README.md
-│
-├── Documentation/
-│   └── PROJECT-DOCUMENTATION.md
-│
-├── Azure/
-│   ├── App-Service/
-│   ├── SQL/
-│   ├── Blob-Storage/
-│   ├── Key-Vault/
-│   └── Application-Insights/
-│
-├── CI-CD/
-│
-├── Screenshots/
-│
-└── Scripts/
-```
-
----
-
-## ✅ Project Status
-
-| Component            | Status         |
-| -------------------- | -------------- |
-| Azure Infrastructure | 🟡 In Progress |
-| Backend Hosting      | 🟡 In Progress |
-| Azure SQL            | 🟡 In Progress |
-| Blob Storage         | 🟡 In Progress |
-| Key Vault            | 🟡 In Progress |
-| Application Insights | ✅ Configured   |
-| Monitoring           | 🟡 In Progress |
-| CI/CD                | 🟡 In Progress |
-| Frontend Deployment  | 🟡 In Progress |
-| Domain Configuration | ⏳ Pending      |
-| Final Integration    | ⏳ Pending      |
-
-> Project status will be updated as the remaining deployment and integration tasks are completed.
-
----
 
 ## 🛠️ Tools & Technologies
 
@@ -289,14 +207,13 @@ Elghool-Online-Store-DevOps/
 * Application Insights
 * GitHub
 * GitHub Actions
-* Postman
 * Visual Studio
 * .NET
 * React
 
 ---
 
-## 📚 References
+## References
 
 * Microsoft Azure Documentation
 * Azure App Service Documentation
@@ -306,14 +223,3 @@ Elghool-Online-Store-DevOps/
 * Azure Application Insights Documentation
 * GitHub Documentation
 
----
-
-## 👩‍💻 DevOps
-
-**Menna Nasser**
-
-DevOps / Cloud Infrastructure
-
-**Project:** Elghool Online Store
-
-**Duration:** 20 June 2026 – 17 July 2026
