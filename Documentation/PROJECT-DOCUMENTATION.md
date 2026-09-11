@@ -6,7 +6,7 @@
 **Start Date:** 20 June 2026
 **End Date:** 17 July 2026
 
-**GitHub Repository:** Elghool Online Store — DevOps
+**GitHub Repository:[** Elghool Online Store — DevOps](https://github.com/MennaNasser4/Elghool-Online-Store-DevOps/blob/main/)
 
 ---
 
@@ -47,7 +47,7 @@ My main responsibilities included:
 * Troubleshooting deployment and startup issues.
 * Troubleshooting Blob Storage and SQL connectivity issues.
 * Configuring SQL firewall access.
-* Preparing documentation and deployment evidence.
+
 
 ---
 
@@ -97,13 +97,11 @@ The backend API acts as the main communication layer between the frontend/mobile
 
 * GitHub
 * GitHub Actions
-* Git
 * .NET
 * React
 * Vite
 * Node.js
 * npm
-* Docker
 
 ### Administration & Networking
 
@@ -188,17 +186,6 @@ The storage connection string and account keys are sensitive credentials and mus
 ## 9. Azure Key Vault & Configuration
 
 Azure Key Vault was used to securely manage sensitive application configuration.
-
-Examples include:
-
-```text
-DefaultConnection
-AzureBlobStorage__ConnectionString
-AzureBlobStorage__ContainerName
-Jwt__Key
-SendGrid__ApiKey
-Google__ClientId
-```
 
 In .NET configuration, double underscores represent nested configuration sections.
 
@@ -406,12 +393,16 @@ Before pushing the repository, all configuration files should be checked for cre
 
 ### Week 1 — 20 June → 26 June
 
-* Understand project architecture
-* Define DevOps responsibilities
-* Prepare Azure environment
-* Create Resource Group
-* Review deployment requirements
-* Plan GitHub integration
+* Studied AZ-900: Microsoft Azure Fundamentals.
+* Studied part of AZ-104: Microsoft Azure Administrator.
+* Learned Azure core concepts and cloud fundamentals.
+* Learned Azure Resource Groups and resource management.
+* Studied Azure subscriptions, regions, and availability.
+* Learned basic Azure identity and access concepts.
+* Reviewed Azure compute, storage, and networking services.
+* Studied the Azure Portal and basic resource configuration.
+* Started understanding the Azure services required for the Elghool project.
+* Reviewed the project architecture and defined the DevOps responsibilities.
 
 ### Week 2 — 27 June → 3 July
 
@@ -420,7 +411,6 @@ Before pushing the repository, all configuration files should be checked for cre
 * Configure Azure SQL
 * Configure Blob Storage
 * Configure storage container
-* Test backend connectivity
 
 ### Week 3 — 4 July → 10 July
 
@@ -559,16 +549,16 @@ Before creating the final ZIP, the repository and files must be checked to ensur
 
 The following resources were used as references during the project:
 
-1. YouTube — Azure / DevOps reference
-2. YouTube — Azure App Service reference
-3. YouTube — Azure deployment reference
-4. Microsoft Learning GitHub
-5. Microsoft Azure Developer Exercises
-6. YouTube — Azure development reference
-7. Microsoft Learning — AZ-204
-8. YouTube — Azure reference
-9. Microsoft Learn — App Service Environment
-10. Microsoft Learn — .NET Core App Service Quickstart
+1. [YouTube — Azure / DevOps reference](https://youtu.be/rBVAMXiAix4?si=uv7i-Od4zI9C8cOj&utm_.com)
+2. [YouTube — Azure App Service reference](https://youtu.be/WY7yhV1PpvQ?si=VQdi1CNZ1YtdTT_K&utm.com)
+3.[ YouTube — Azure deployment reference](https://youtu.be/cIStcPXjxKI?si=w2Dftba4fzMEmN1x&utm_.com)
+4. [Microsoft Learning GitHub](https://github.com/MicrosoftLearning?utm_source=chatgpt.com)
+5.[ Microsoft Azure Developer Exercises](https://aka.ms/azure-developer-exercises?utm_.com)
+6. [YouTube — Azure development reference](https://youtu.be/R_Fi59j6BMo?si=Hw5qgzQzMjfbQNEA&utm_.com)
+7.[ Microsoft Learning — AZ-204](https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure?utm_.com)
+8. [YouTube — Azure reference](https://youtu.be/lDCeH9aWRi4?si=QPQKkN93D_wrmiXY&utm_.com)
+9. [Microsoft Learn — App Service Environment](https://learn.microsoft.com/en-us/azure/app-service/environment/creation?utm_.com)
+10. [Microsoft Learn — .NET Core App Service Quickstart](https://learn.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net80&pivots=development-environment-vs&utm_.com)
 
 ---
 
