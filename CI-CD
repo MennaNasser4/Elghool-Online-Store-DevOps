@@ -1,1 +1,35 @@
+GitHub Actions was used to prepare the CI/CD workflow and automate the application deployment process.
 
+The workflow is designed to:
+
+Trigger automatically when code is pushed to the configured GitHub branch.
+Install project dependencies.
+Build the application.
+Run tests when available.
+Deploy the generated build to the target Azure service.
+Frontend CI/CD Flow
+GitHub Repository
+       ↓
+GitHub Actions
+       ↓
+npm install
+       ↓
+npm run build
+       ↓
+dist/
+       ↓
+Azure Static Web Apps
+Backend CI/CD Flow
+GitHub Repository
+       ↓
+GitHub Actions
+       ↓
+Restore Dependencies
+       ↓
+Build .NET Application
+       ↓
+Publish
+       ↓
+Azure App Service
+
+This provides an automated deployment workflow between GitHub and Microsoft Azure, reducing the need for manual deployments after code changes.
